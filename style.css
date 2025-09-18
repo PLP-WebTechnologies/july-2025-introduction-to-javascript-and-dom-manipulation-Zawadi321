@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #c4c4c4ff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+form{
+    background: #fff;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 30rem;
+    margin: 1rem auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    padding: 5px;
+}
+.error{
+    color: red;
+    font-size: 0.9em;
+}
+#newsletter{
+    display: inline-block;
+    width: auto;
+}
+button{
+    font-weight: bold;
+    padding: 10px;
+    background-color: #4e4f4eff;
+    color: white;
+    border: none;
+}
+
+.success-message{
+    color: green;
+    font-size: 1em;
+    margin-top: 20px;
+}
